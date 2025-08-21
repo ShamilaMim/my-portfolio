@@ -1,33 +1,41 @@
-# Portfolio Skeleton (Vanilla HTML + CSS + JS)
+My Portfolio Starter (HTML + CSS + JS)
 
-This is a clean, beginner‑friendly portfolio starter you can customize in minutes.
+Hi! This is just a simple portfolio template I made. Super easy to change and make it yours.
 
-## 📁 Structure
-- `index.html` — page markup and sections (Hero, About, Skills, Projects, Contact).
-- `style.css` — modern, responsive styles (dark/light themes supported).
-- `script.js` — mobile menu + theme toggle + project card injection + contact fallback.
-- `assets/img/` — put your images here. A few placeholders are referenced already.
+Project Structure
 
-## 🚀 How to use
-1. Open `index.html` in your browser to preview.
-2. Replace `Your Name`, bio text, and links in `index.html`.
-3. Update the project list in `script.js`:
-   - Change `img`, `title`, `desc`, `tags`, `live`, and `code` to your projects.
-4. Put real images into `assets/img/` and match file names in `script.js`.
-5. Change `you@example.com` in `index.html` and `script.js` to your real email.
+index.html — all the sections: Hero, About, Skills, Projects, Contact
 
-## 🌐 Deploy (free)
-- **GitHub Pages**: push the folder to a repo → Settings → Pages → Deploy from root.
-- **Netlify/Vercel**: drag‑and‑drop the folder onto the dashboard.
+style.css — responsive styles, light & dark mode
 
-## ✉️ Optional: Enable EmailJS
-1. Create an account at EmailJS.
-2. Add your Service ID, Template ID, and Public Key.
-3. Replace the mailto fallback in `script.js` with the `emailjs.send(...)` call.
+script.js — mobile menu, theme toggle, project cards, contact fallback
 
-## 🧩 Customization ideas
-- Replace the emoji logo with your photo (update `assets/img/profile-placeholder.png`).
-- Add more sections (Certifications, Testimonials, Resume link).
-- Swap colors in `:root` or use light theme by default (add `class="light"` to `<body>`).
+assets/img/ — put your images here (I added a few placeholders already)
 
-Happy building! ✨
+How I Use It
+
+Open index.html in a browser to see it.
+
+Change your name, bio, and links in index.html.
+
+Update projects in script.js: img, title, desc, tags, live, code
+
+Replace placeholder images in assets/img/ with your own, make sure filenames match
+
+Change you@example.com to your real email
+
+Deploy
+
+GitHub Pages: push folder → Settings → Pages → Deploy from root
+
+Netlify / Vercel: just drag & drop
+
+Optional: EmailJS
+
+Make an account
+
+Get Service ID, Template ID, Public Key
+
+Replace mailto fallback in script.js with emailjs. send(...)
+
+Done! You can now tweak it and make it yours. ✨
